@@ -1,0 +1,123 @@
+.footer {
+	width: 100%;
+	background: #000000;
+	display: block;
+    font-weight: bold;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+}
+
+.inner-footer {
+	width: 95%;
+	margin: auto;
+	padding: 30px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.footer-items {
+	width: 30%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+/*h1 {
+	padding: 10px 0;
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+}*/  /*ma kent a3ref la shu hayda bas im scared to touch it, i removed it cuz it fucked the album titles*/
+
+.footer-items p {
+	color: grey;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.h2-footer {
+	margin: 10px 0;
+	color: grey;
+	font-size: 16px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.border {
+	height: 2px;
+	width: 40px;
+	background: #ffffff;
+}
+
+.footer ul {
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+.footer ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.footer #green-hover :hover {
+	color:#11b149;
+    cursor: pointer;
+}
+
+.footer #purple-hover :hover {
+	color:#a812ce;
+    cursor: pointer;
+}
+
+.footer ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+
+.footer li i {
+	margin-right: 20px;
+}
+
+.social-media {
+	width: 100%;
+	color: #fff;
+	justify-content: center;
+    padding: 20px;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media i {
+	height: 30px;
+	width: 30px;
+	margin: 10px 5px;
+	padding: 5px;
+    padding-left: 7.5px;
+	color: #fff;
+	border-radius: 50%;
+	border: 1px solid grey;
+	transition: 0.3s;
+}
+
+.social-media i:hover {
+	background: grey;
+}
+
+.footer-bottom {
+	padding: 10px;
+	background: #3d545f;
+	color: #fff;
+	font-size: 12px;
+    text-align: center;
+    background: linear-gradient(to right,  #11b149 , #a812ce);
+    bottom: 0;
+}

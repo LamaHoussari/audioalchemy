@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+    box-sizing: border-box;
+}
+body{
+    background-color:black;    
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.alchemy{
+  padding-top: 10px;
+}
+#Icon{
+    height: 35px;
+   align-items: center;
+}
+nav{
+    max-height: 50px;
+    padding: 10px;
+    background: linear-gradient(to right,  #11b149 , #a812ce  );
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px inset black;
+    box-shadow: 0px 0px 7px black;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+}
+
+.topnav{
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+nav p{
+    margin-top: 9px;
+    margin-left: -3px;
+}
+
+.menu-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav li {
+list-style: none;
+margin-left:45px;
+width: 130px;
+height: 50px;
+}
+
+.topnav li a{
+  text-decoration: none;
+  color: black;
+ text-align: center;
+ transition: 150ms ease-in-out;
+
+}
+
+.topnav li a:hover{
+  color: #ffffff;
+  border-bottom: 2px solid white;
+}
+
+.menu-sub{
+  display: none;
+  width: 150px;
+}
+
+.dropmenu:hover .menu-sub{
+  display: block;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -9px;
+  background-color: #11b149;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 5px black;
+  height: 280px;
+
+}
+.dropmenu:hover .menu-sub ul{
+  display: block;
+  margin:15px;
+}
+.menu-sub ul li{
+  margin-left: -5px;
+  padding: 15px;
+  
+}
+.menu-sub ul li:first-child{
+  margin-top: -10px;
+  
+}
+.menu-sub ul li:last-child{
+  margin-bottom: -35px;
+  
+}
+.dropmenu{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.mainbody{
+  margin-top:50px;
+  margin: 70px 70px 70px 70px;
+  background-color: #11b149;
+  height: 1500px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 12px; 
+  height: 30px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 6px; 
+  height: 50px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent; /* make the corner background transparent */
+}
+
+
+::-webkit-scrollbar-button {
+  background: transparent;
+  display: none;
+
+
+}
+::-webkit-scrollbar-track {
+  background: rgba(91, 91, 91, 0.208);
+
+}

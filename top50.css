@@ -1,0 +1,75 @@
+@import url(world.css);
+@import url(footer.css);
+
+
+
+body{
+    background-color:#000000;
+    background-attachment: fixed ;
+
+}
+.mainbody{
+    height: 100%;
+    background-color:#000000;
+    color: white;
+    margin-bottom: 30px;
+  
+}
+.albumCover{
+    width: 350px;
+    max-height: 300px;
+    border-radius: 5px;
+}
+.albums{
+    background-color: #242626;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: right;
+    padding: 20px;
+
+}
+
+.albums:first-child{
+    margin-top: 30px;;
+}
+.albumTitle{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.albumdesc{
+    display: flex;
+    flex-direction: column;
+}
+
+.artistName{
+    padding-top: 5px;
+    color: #a812ce;
+}
+
+.desccontainer{
+    color:rgb(196, 182, 182);
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    max-height: 250px;
+    align-items: right;
+    gap: 15px;
+    margin-left: 15px;
+    max-height: fit-content;
+}
+
+.albumDescription{
+    line-height: 1.3;
+    font-size: 15px;
+}
+
+.albumDate{
+    color: white;
+}
+
+#top50{
+    color:white;
+}

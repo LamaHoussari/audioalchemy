@@ -1,0 +1,454 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins'); */
+@import url(footer.css);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+body{
+    background-color: #02131c;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#Icon{
+  height: 35px;
+   align-items: center;
+   filter: invert(1);
+}
+.alchemy{
+    margin-top: 30px;
+    margin-left: 5px;
+    color: white;
+}
+
+p{ 
+    margin: 30px;
+}
+#name{
+    font-size: 53px;
+    animation: nameframe 1s;
+}
+
+@keyframes nameframe{
+    from{
+        margin-left: -1000px ;
+    }
+
+    to{
+        margin-left:50px ;
+    }
+}
+
+nav{
+    height: 65px;
+    padding: 10px;
+    /* background-color: #AE490F; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.2px inset rgba(0, 0, 0, 0.219);
+    font-size: large;
+    font-weight: bold;
+}
+nav p{
+    margin-top: auto;
+    margin-left: -3px;
+}
+
+
+#trans{
+    -webkit-text-fill-color: transparent;
+    font-size: 53px;
+    font-style: italic;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: white; 
+    
+}
+.slogan-fade{
+    margin-left: 50px;
+    animation: nameframe 2.5s;
+}
+#slogan-music{
+    color: #E25328;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes btn_frame{
+    from{
+        opacity: 0;
+        margin-top:300px;
+    }
+    to{
+        opacity: 1;
+        margin-bottom: 0;
+    }
+}
+.slogan{
+    font-size: 53px;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 40px;
+    
+}
+
+.image_home{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:100px;
+    left: 650px;
+    padding: 20px;
+     display: inline-grid ;
+     grid-template-columns:150px 120px 120px 150px;
+     justify-content: space-evenly;
+     align-items: center;
+    
+     animation: fadein 7s;
+
+}
+.image_home img{
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+   
+}
+
+
+.image_home img:hover{
+  transform: scale(0.8);
+  transition: all 150ms ease-in-out;
+
+}
+
+#sza{
+    display: grid;
+    width: 150px;
+    height: 150px;
+    grid-row-start:2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    overflow: hidden;
+    
+}
+
+#kendrick{
+    width: 100px;
+    height: 100px;
+    gap: 120px;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 20px;
+}
+#jhene{
+    width: 120px;
+    height: 120px;
+    grid-column-end: 3;
+    grid-row-start:2;
+   margin-top: 40px;
+   margin-left:150px;
+  
+}
+#frank{
+    width: 90px;
+    height: 90px;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+#drake{
+    width: 120px;
+    height: 120px;
+    grid-column-end: 3;
+  
+}
+#theinternet{
+    width:80px;
+    height: 80px;
+   margin-bottom: 75px;
+   grid-row-start:1;
+   grid-row-end:3;
+   margin-left: 20px;
+}
+
+#giveon{
+
+    width: 115px;
+    height: 115px;
+}
+
+#clairo{
+    width:60px;
+    height:60px;
+    margin-left:60px;
+    margin-top:20px;
+}
+
+#tyler{
+    width:95px;
+    height: 95px;
+    margin-left: 70px;
+}
+
+#lacy{
+    width: 75px;
+    height:75px;
+    grid-column-start:4;
+    margin-left: 15px;
+}
+
+
+.about{
+    max-width: 550px;
+    width: 100%;
+    color: rgb(163,163,163);
+    opacity: 75%;
+    font-weight: 600;
+    animation: nameframe 3.5s;
+    margin-left: 50px ;
+}
+.buttons{
+    margin: 30px;
+margin-bottom: 100px;
+display: block;
+}
+
+#world_music {
+    margin-right: 10px;
+    padding: 12px;
+    background-color: #223404 ;
+    text-align: center;
+    margin-top: 10px ;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+    animation: btn_frame 3s;
+    
+}
+#world_music:hover{
+    transform: scale(1.05);
+    background: linear-gradient(to right,  #11b149 , #a812ce);
+    transition: all 150ms ease-in-out;
+
+}
+
+#prsn_tst{
+    margin-left: 40px;
+    padding: 12px;
+    background-color:#E25328 ;
+    text-align: center;
+    margin-top: 10px ;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+    animation: btn_frame 4s;
+
+}
+
+#prsn_tst:hover{
+    transform: scale(1.05);
+    background: linear-gradient(to right,  #11b149 , #a812ce);
+  transition: all 150ms ease-in-out;
+  
+}
+
+.bodycarousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #000000; */
+    /* overflow-x: hidden; */
+    height: auto;
+    font-family: 'Urbanist', sans-serif;
+    margin-left: -150px;
+    margin-bottom: 135px;
+}
+
+
+.container {
+
+    width: 100%;
+    height: 100%;
+    /* max-width: 600px;
+    max-height: 600px; */
+    display: flex;
+    transform-style: preserve-3d;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left:-90px;
+    margin-top: 40px;
+}
+
+.cards {
+
+    position: relative;
+    height: 500px;
+    width: 430px;
+    margin-bottom: 20px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    align-items: center;
+}
+
+.cards label {
+
+    position: absolute;
+    width: 430px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.55s ease;
+}
+
+.cards .card{
+
+    position: relative;
+    height: 580px;
+    width: 700px;
+    background-color: #242626;
+    border-radius: 10px;
+    border: 3px solid  black;
+    /* padding: 30px 35px; */
+}
+
+.card .image{
+
+    display: flex;
+
+    /* justify-content: space-between; */
+}
+
+.card .image .car_img{
+    border-radius: 5px;
+    /* box-shadow: 15px 15px 40px rgba(0, 0, 0, 50%); */
+    margin: 30px 30px 0px 30px;
+    width: auto;
+    height: 420px;
+    border: 3px solid black;
+    /* object-fit: cover; */
+}
+
+.card .infos{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.infos span{
+    display: block;
+}
+
+.infos .cardTitle{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    transition: all .6s ease;
+}
+
+.infos .cardDescription{
+    /* margin-bottom: 15px; */
+    font-size: 15.5px;
+    color:rgb(196, 182, 182);
+    letter-spacing: 3px;
+}
+
+#personalityGif{
+    width: 370px;
+}
+
+
+#s1:checked~.cards #slide4,
+#s2:checked~.cards #slide5,
+#s3:checked~.cards #slide1,
+#s4:checked~.cards #slide2,
+#s5:checked~.cards #slide3 {
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(-70%, 0, -220px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+}
+
+#s1:checked~.cards #slide5,
+#s2:checked~.cards #slide1,
+#s3:checked~.cards #slide2,
+#s4:checked~.cards #slide3,
+#s5:checked~.cards #slide4 {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(-35%, 0, -120px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+}
+
+#s1:checked~.cards #slide2,
+#s2:checked~.cards #slide3,
+#s3:checked~.cards #slide4,
+#s4:checked~.cards #slide5,
+#s5:checked~.cards #slide1 {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(35%, 0, -120px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+}
+
+#s1:checked~.cards #slide3,
+#s2:checked~.cards #slide4,
+#s3:checked~.cards #slide5,
+#s4:checked~.cards #slide1,
+#s5:checked~.cards #slide2 {
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(70%, 0, -220px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+}
+.d-none {
+
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+    height: 30px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px; 
+    height: 50px;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: transparent; /* make the corner background transparent */
+  }
+  
+  
+  ::-webkit-scrollbar-button {
+    background: transparent;
+    display: none;
+  
+  
+  }
+  ::-webkit-scrollbar-track {
+    background: rgba(91, 91, 91, 0.208);
+  
+  }
